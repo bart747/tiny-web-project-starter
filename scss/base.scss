@@ -1,0 +1,92 @@
+
+html {
+  box-sizing: border-box;
+  font-size: $small-font-size;
+
+  @media screen and (min-width: 500px) {
+    font-size: $base-font-size;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  padding: 1rem;
+}
+
+article,
+header,
+section,
+ {
+  margin-bottom: $u * 2;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 54rem;
+  padding: 0 1rem 3rem;
+}
+
+// links
+a {
+  border-bottom: 1px dotted ;
+  color: $blue;
+  cursor: pointer;
+  text-decoration: none;
+  &:focus, &:hover {
+    border-bottom: 1px solid;
+  }
+}
+
+
+//
+// stuff inspired by or copied from 'HTML5 Boilerplate'
+//
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: $u 0 0;
+    padding: 0;
+}
+
+::selection {
+    background: #a2ff86;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+// Hide visually and from screen readers
+.hidden {
+   display: none !important;
+}
+
+
+// Hide only visually, but have it available for screen readers
+// http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+
+.visuallyhidden {
+   border: 0;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+}

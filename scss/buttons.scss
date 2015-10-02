@@ -1,0 +1,23 @@
+// buttons
+
+button,
+.btn {
+  background-color: $gray;
+  border: none;
+  border-bottom: 2px solid darken($gray, 20%);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin: $u 0;
+  max-width: 10 * $u;
+  padding: 0.5 * $u; // -2px beacause of border-bottom
+  position: relative;
+  top: -1px;
+
+  &:hover {
+    background-color: darken($gray, 10%);
+  }
+  &:active {
+    background-color: darken($gray, 20%);
+  }
+}

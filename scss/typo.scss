@@ -1,0 +1,14 @@
+p {
+  margin: $u 0;
+  max-width: $base-width;
+}
+
+.p-lead {
+    font-size: $large-font-size;
+    font-weight: normal;
+}
+
+.txt-light {
+  color: $gray;
+  font-weight: normal;
+}

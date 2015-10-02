@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+// typography
+$base-font-family:    sans-serif;
+$monospace:           monospace;
+
+$base-font-size:      18px;
+$large-font-size:     21px;
+$small-font-size:     16px;
+
+$base-line-height:    1.6;
+
+
+// base rhythm unit
+$u:                   $base-font-size * $base-line-height;
+
+
+// colors
+$text-color:          #333;
+$background-color:    #fff;
+
+$blue:                #3070D0;
+$blue-dark:           #0e3979;
+$blue-light:          #7dd8ff;
+$red:                 #ff2a2a;
+$red-dark:            #a12424;
+$orange:              #e46609;
+$green:               #089630;
+$yellow:              #ffd600;
+$black:               #222;
+
+$gray:                #828282;
+$gray-light:          lighten($gray, 33%);
+$gray-dark:           darken($gray, 33%);
+
+$primary:             $blue;
+$secondary:           $green;
+
+
+// RWD stuff
+$base-width:          48rem;
+
+$screen-sm:           568px;
+$screen-md:           768px;
+$screen-big:          1024px;
