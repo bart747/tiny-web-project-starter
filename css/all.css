@@ -441,6 +441,24 @@ video {
     content: "";
     display: table;
     clear: both; } }
+h1 {
+  font-size: 43.2px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin: 57.6px 0 28.8px; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  margin: 57.6px 0 28.8px; }
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 57.6px 0 28.8px; }
+
 p {
   margin: 0 0 28.8px;
   max-width: 48rem; }

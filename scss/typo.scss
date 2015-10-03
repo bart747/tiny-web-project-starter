@@ -1,3 +1,23 @@
+h1 {
+  font-size: $u * 1.5;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin: ($u * 2) 0 $u;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: $u;
+  margin: ($u * 2) 0 $u;
+}
+
+h3 {
+  font-size: $base-font-size;
+  text-transform: uppercase;
+  margin: ($u * 2) 0 $u;
+}
 
 p {
   margin: 0 0 $u;
