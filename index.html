@@ -14,7 +14,9 @@
 
 <title> --- </title>
 
+<link href="highlighter/styles/agate.css" rel="stylesheet">
 <link href="css/all.css" rel="stylesheet">
+
 
 </head>
 
@@ -28,12 +30,10 @@
 <h1>Heading</h1>
 <h2>Heading</h2>
 <h3>Heading</h3>
-<h4>Heading</h4>
-<h5>Heading</h5>
-<h6>Heading</h6>
 
-<div class="grid">
+<div class="row">
   <div class="col half">
+    <h2>Bacon ipsum dolor amet tenderloin salami prosciutto</h2>
     <p>
       Bacon ipsum dolor amet tenderloin salami prosciutto filet mignon corned
       beef jerky.
@@ -42,13 +42,32 @@
       Capicola leberkas tail pork belly pastrami tongue, jowl cupim cow landjaeger
       beef ribs prosciutto.
     </p>
+
+    <pre><code class="js">
+gulp.task('auto', function() {
+  return gulp.src('./css/*.css')
+    .pipe(autoprefixer({
+      browsers: ['last 3 versions'],
+      cascade: false
+    }))
+    .pipe(gulp.dest('./css'));
+})
+    </code></pre>
   </div>
   <div class="col half">
+    <h2>Bacon ipsum</h2>
     <p>
       Bacon ipsum dolor amet tenderloin salami prosciutto filet mignon corned
       beef jerky.
       Short ribs ham spare ribs turkey meatball porchetta.
+    </p>
+
+    <h3>Bacon ipsum</h3>
+    <p>
       Prosciutto corned beef jerky, brisket leberkas strip steak beef sausage tail.
+    </p>
+    <h3>Bacon ipsum</h3>
+    <p>
       Capicola leberkas tail pork belly pastrami tongue, jowl cupim cow landjaeger
       beef ribs prosciutto.
     </p>
@@ -74,6 +93,8 @@
 </footer>
 
 <script src="js/script.js"></script>
+<script src="highlighter/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 

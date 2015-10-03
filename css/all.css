@@ -437,12 +437,12 @@ video {
   .col.third {
     width: 33.33%; }
 
-  .grid:after {
+  .row:after {
     content: "";
     display: table;
     clear: both; } }
 p {
-  margin: 28.8px 0;
+  margin: 0 0 28.8px;
   max-width: 48rem; }
 
 .p-lead {
@@ -452,6 +452,9 @@ p {
 .txt-light {
   color: #828282;
   font-weight: normal; }
+
+pre {
+  margin: 28.8px 0; }
 
 button,
 .btn {

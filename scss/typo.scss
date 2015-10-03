@@ -1,5 +1,6 @@
+
 p {
-  margin: $u 0;
+  margin: 0 0 $u;
   max-width: $base-width;
 }
 
@@ -11,4 +12,8 @@ p {
 .txt-light {
   color: $gray;
   font-weight: normal;
+}
+
+pre {
+  margin: $u 0;
 }
